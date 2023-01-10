@@ -88,6 +88,9 @@ export default function makeLoginGoogle({
 			data: {
 				userId: requestData.userId,
 				accessToken,
+				firstName: getUser.firstName,
+				lastName: getUser.lastName,
+        profileImage: googleTokenDetails.picture
 			},
 		});
 	}

@@ -34,7 +34,7 @@ export default function makeLoginGithub({
           client_id: "daf95edc4e9ccd335439",
           client_secret: "dd4fa0ac9f0a2b2fe5ddc73d5ed5f4181364e1ee",
           code: loginPayload.code,
-          redirect_uri: "http://localhost:3000/auth-access"
+          redirect_uri: "https://oneguru.io/auth-access"
         },
       });
 
@@ -69,15 +69,15 @@ export default function makeLoginGithub({
           isVerified: 1,
         };
         auth = await register(user);
-        return await signTokenAndReturn(auth, getUser);
+        return await signTokenAndReturn(auth, getUser, userResponse.data);
       }
-      return await signTokenAndReturn(auth, getUser);
+      return await signTokenAndReturn(auth, getUser, userResponse.data);
     } catch(err) {
       console.log(err);
     }
 	};
 
-  async function signTokenAndReturn(auth, getUser) {
+  async function signTokenAndReturn(auth, getUser, userResponse) {
 		// sign access token and return
 		const requestData = {
 			userId: auth ? auth._id : getUser._id,
@@ -103,6 +103,9 @@ export default function makeLoginGithub({
 			data: {
 				userId: requestData.userId,
 				accessToken,
+        firstName: userResponse.name,
+				lastName: userResponse.name,
+        profileImage: userResponse.avatar_url
 			},
 		});
 	}
