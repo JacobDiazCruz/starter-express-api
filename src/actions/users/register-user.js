@@ -39,10 +39,7 @@ export default function makeRegister({
     
     // ============= @STEP 2 =============
     // Store / Register User
-    console.log("reg here 123")
-    console.log("hashedAuth", hashedAuth)
     const registerResult = await saveUser(hashedAuth)
-    console.log("reg here 1234")
 
     // ============= @STEP 3 ===========
     // Get user by id
@@ -95,7 +92,7 @@ export default function makeRegister({
       enterprise_plan_visit_cnt: 0,
       start_test_cnt: 0,
       finished_test_cnt: 0,
-      view_results_cnt: 0
+      feedback_msg: []
     });
 
     return {
