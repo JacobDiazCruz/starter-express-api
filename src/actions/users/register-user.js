@@ -87,6 +87,7 @@ export default function makeRegister({
       email: userResult.email,
       firstName: userResult.firstName,
       lastName: userResult.lastName,
+      buy_now_level: 0,
       basic_plan_visit_cnt: 0,
       pro_plan_visit_cnt: 0,
       enterprise_plan_visit_cnt: 0,
