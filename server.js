@@ -30,6 +30,7 @@ app.use(function (req, res, next) {
 	next();
 });
 
+
 // cron job
 // call every 5 mins to avoid wake up glitch server
 // cron.schedule('*/4 * * * *', () => {

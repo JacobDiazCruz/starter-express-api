@@ -87,12 +87,14 @@ export default function makeRegister({
       email: userResult.email,
       firstName: userResult.firstName,
       lastName: userResult.lastName,
-      buy_now_level: 0,
       basic_plan_visit_cnt: 0,
       pro_plan_visit_cnt: 0,
       enterprise_plan_visit_cnt: 0,
       start_test_cnt: 0,
       finished_test_cnt: 0,
+      click_buy_pro_membership: 0,
+      disagree_membership_waitlist: 0,
+      agree_membership_waitlist: 0,
       feedback_msg: []
     });
 
