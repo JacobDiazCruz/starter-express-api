@@ -11,7 +11,7 @@ import {
         let totalResult = 0
         httpRequest.body.contents.forEach((content) => {
           if(content?.question.correctAnswer === content?.question.selectedAnswer) {
-            count += 1
+            totalResult += 1
           }
         });
         const result = await updatePathContentQuery({
