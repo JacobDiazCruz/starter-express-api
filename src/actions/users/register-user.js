@@ -5,6 +5,8 @@ import { BadRequestError, UniqueConstraintError } from "../../helpers/errors.js"
 import makeAuditLog from "../../entities/user/audit-log.js"
 import makeProfileEntity from "../../entities/profile/profile.js"
 import { saveAuditLogQuery } from "../../database/audit-log.js"
+import { savePathsQuery } from "../../database/paths.js"
+import { paths } from "../../statics/paths.js";
 
 /**
  * @author Jacob
@@ -94,6 +96,16 @@ export default function makeRegister({
       disagree_membership_waitlist: 0,
       agree_membership_waitlist: 0,
       feedback_msg: []
+    });
+
+    // Create paths content
+    await savePathsQuery({
+      userId: registerResult.insertedId,
+      email: userResult.email,
+      firstName: userResult.firstName,
+      lastName: userResult.lastName,
+      profileId: profileResult.insertedId,
+      paths
     });
 
     return {

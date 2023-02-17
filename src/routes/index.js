@@ -13,6 +13,12 @@ import {
 	updateUserController,
 } from '../controllers/users/index.js';
 
+// Paths controller
+import {
+  getPathsListController, 
+  updatePathContentController
+} from "../controllers/paths/index.js";
+
 import { 
   updateAuditLog
 } from '../controllers/audit-log/index.js';
@@ -56,6 +62,10 @@ router.post('/users/v1/logout', makeExpressCallback(logoutController));
 router.get('/users/v1/check-token', makeExpressCallback(checkTokenController));
 router.post('/users/v1/refresh-token', refreshTokenController);
 router.put('/users/v1/update-user/:id', makeExpressCallback(updateUserController));
+
+// PATHS routes
+router.get('/paths/v1/list/:id', makeExpressCallback(getPathsListController));
+router.put('/paths/v1/update/:id', makeExpressCallback(updatePathContentController));
 
 // AUDIT LOG routes
 router.patch('/v1/audit-log', makeExpressCallback(updateAuditLog));

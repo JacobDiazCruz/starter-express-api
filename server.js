@@ -19,9 +19,9 @@ app.use(
 		referrerPolicy: { policy: 'no-referrer' },
 	})
 );
-app.use(cors({ origin: 'https://oneguru.io', credentials: true }));
+app.use(cors({ origin: true, credentials: true }));
 app.use(function (req, res, next) {
-	res.header('Access-Control-Allow-Origin', 'https://oneguru.io');
+	// res.header('Access-Control-Allow-Origin', 'https://oneguru.io');
 	res.header('Access-Control-Allow-Credentials', true);
 	res.header(
 		'Access-Control-Allow-Headers',

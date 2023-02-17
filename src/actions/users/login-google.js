@@ -3,7 +3,6 @@ import makeLoginGoogleEntity from '../../entities/user/login-google.js';
 import { BadRequestError } from '../../helpers/errors.js';
 import { makeHttpError, makeHttpSuccess } from '../../helpers/http-return.js';
 import { signAccessToken, getTokenDetails } from '../../helpers/jwt.js';
-import message from '../../helpers/constants.js';
 
 // const config = require('config')
 // const { OAuth2Client } = require('google-auth-library');
@@ -57,6 +56,7 @@ export default function makeLoginGoogle({
 				isVerified: 1,
 			};
 			auth = await register(user);
+      console.log("here1")
 			return await signTokenAndReturn(auth, getUser, googleTokenDetails);
 		}
 		return await signTokenAndReturn(auth, getUser, googleTokenDetails);
@@ -78,18 +78,18 @@ export default function makeLoginGoogle({
 		// store sign access token to DB
 		await storeTokenQuery({
 			userId: requestData.userId,
-			accessToken: accessToken,
+			accessToken,
 			email: requestData.email,
 		});
 
 		return makeHttpSuccess({
 			statusCode: 200,
-			message: message.LOGIN_SUCCESS,
+			message: constants.LOGIN_SUCCESS,
 			data: {
 				userId: requestData.userId,
 				accessToken,
-				firstName: getUser.firstName,
-				lastName: getUser.lastName,
+				firstName: auth?.firstName || getUser?.firstName,
+				lastName: auth?.lastName || getUser?.lastName,
         profileImage: googleTokenDetails.picture
 			},
 		});
