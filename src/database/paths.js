@@ -31,9 +31,24 @@ async function updatePathContentQuery({ userId, pathId, totalResult, contents })
   return result;
 };
 
+async function updateTotalResultQuery({ userId, pathId, totalResult }) {
+  const result = await db
+    .collection('paths')
+    .findOneAndUpdate(
+      { userId: db.makeId(userId), "paths.id": pathId },
+      { 
+        $set: {
+          "paths.$.totalResult": totalResult,
+          "paths.$.dateFinished": Date.now()
+        }
+      }
+    )
+  return result;
+};
+
 export {
   savePathsQuery,
   listPathsQuery,
-  updatePathContentQuery
-  // updateAuditLogQuery
+  updatePathContentQuery,
+  updateTotalResultQuery
 };

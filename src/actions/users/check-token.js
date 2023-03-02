@@ -46,7 +46,7 @@ export default function makeCheckToken({
             user: {
               ...result,
               _id: tokenDetails.userId,
-							socketId:user.socketId
+              membershipDetails: user?.membershipDetails
             },
             profile: {
               ...profile

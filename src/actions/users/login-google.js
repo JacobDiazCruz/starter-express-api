@@ -56,7 +56,6 @@ export default function makeLoginGoogle({
 				isVerified: 1,
 			};
 			auth = await register(user);
-      console.log("here1")
 			return await signTokenAndReturn(auth, getUser, googleTokenDetails);
 		}
 		return await signTokenAndReturn(auth, getUser, googleTokenDetails);
@@ -90,6 +89,7 @@ export default function makeLoginGoogle({
 				accessToken,
 				firstName: auth?.firstName || getUser?.firstName,
 				lastName: auth?.lastName || getUser?.lastName,
+        membershipDetails: auth?.membershipDetails || getUser?.membershipDetails,
         profileImage: googleTokenDetails.picture
 			},
 		});

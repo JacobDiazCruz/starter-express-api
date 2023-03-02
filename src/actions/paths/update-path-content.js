@@ -5,23 +5,36 @@ import {
   } from '../../helpers/errors.js'
   import { makeHttpError } from "../../helpers/http-return.js"
   
-  export default function makeUpdatePathContent({ updatePathContentQuery }) {
+  export default function makeUpdatePathContent({ 
+    updatePathContentQuery,
+    updateTotalResultQuery
+  }) {
     return async function handle(httpRequest) {
       try {
-        let totalResult = 0
-        httpRequest.body.contents.forEach((content) => {
-          if(content?.question.correctAnswer === content?.question.selectedAnswer) {
-            totalResult += 1
-          }
-        });
-        const result = await updatePathContentQuery({
-          userId: httpRequest.pathParams.id,
-          pathId: httpRequest.body.pathId,
-          totalResult: totalResult.toString(),
-          contents: httpRequest.body.contents
-        });
+        let response
+        if(httpRequest.body?.read) {
+          response = await updateTotalResultQuery({
+            userId: httpRequest.pathParams.id,
+            pathId: httpRequest.body.pathId,
+            totalResult: "1",
+          });
+        } else if (httpRequest.body?.contents.length) {
+          let totalResult = 0
+          httpRequest.body.contents.forEach((content) => {
+            if(content?.question.correctAnswer === content?.question.selectedAnswer) {
+              totalResult += 1
+            }
+          });
+          response = await updatePathContentQuery({
+            userId: httpRequest.pathParams.id,
+            pathId: httpRequest.body.pathId,
+            totalResult: totalResult.toString(),
+            contents: httpRequest.body.contents
+          });
+        }
 
-        if (result) {
+        // response
+        if (response) {
           return {
             headers: {
               'Content-Type': 'application/json'
@@ -32,7 +45,7 @@ import {
         } else {
           return {
             statusCode: 404,
-            data: result,
+            data: response,
             message: 'Paths not found.'
           }
         }
