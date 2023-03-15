@@ -23,6 +23,12 @@ import {
   updateAuditLog
 } from '../controllers/audit-log/index.js';
 
+import { 
+	createStripePayment,
+  getPaymentDetails,
+  savePayment
+} from '../controllers/payment/index.js';
+
 // express callback
 import makeExpressCallback from '../express-callback/index.js';
 import path from 'path';
@@ -66,6 +72,11 @@ router.put('/users/v1/update-user/:id', makeExpressCallback(updateUserController
 // PATHS routes
 router.get('/paths/v1/list/:id', makeExpressCallback(getPathsListController));
 router.put('/paths/v1/update/:id', makeExpressCallback(updatePathContentController));
+
+// PAYMENT routes
+router.post('/create-payment-intent', makeExpressCallback(createStripePayment));
+router.post('/payment', makeExpressCallback(savePayment));
+router.get('/payment', makeExpressCallback(getPaymentDetails));
 
 // AUDIT LOG routes
 router.patch('/v1/audit-log', makeExpressCallback(updateAuditLog));

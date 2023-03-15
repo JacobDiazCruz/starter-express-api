@@ -152,7 +152,7 @@ export const paths = [
   },
   {
     "id": "2",
-    "name": "Identifying the primary actions/sections",
+    "name": "Hierarchies and Primary Actions",
     "label": "identify_primary_actions_and_sections",
     "description": "You'll learn how to implement the right modals.",
     "tags": [],
@@ -161,6 +161,34 @@ export const paths = [
     "contents": [
       {
         "id": "1",
+        "body": "",
+        "question": {
+          "label": "Which design effectively displays the primary section?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_A_hl74db.png",
+              "alt": "My Cart First Item",
+              "explanation": "“Try our new ecommerce plugin” is the primary (most emphasized) section in this UI, and it is clearly displayed as the primary because the design follows the correct hierarchy of background colors by reducing the contrast of the three cards, thus, making them the secondary sections.<br/>As for the buttons, they also follow the same hierarchy approach by making the “Go to my website button” the secondary action, and “Add new” buttons as tertiary actions.<br/>As much as possible, avoid applying too many primary colors on a single view since the actions will contradict each other and cause conflicts in the eyes of the user. The design avoided this by making the “Go to my website“ button a secondary action rather than a primary one."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_B_ebgfix.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The cards and buttons are grabbing each other’s attention. The main reason is that they are labeled as primary actions, thus indicating that they all have the same level of importance. Most of the time, this creates confusion in users’ eyes the first time they look at the UI."
+            }
+          ]
+        },
+      },
+      {
+        "id": "2",
         "body": "",
         "question": {
           "label": "Which design provides the right contrast?",
@@ -173,19 +201,215 @@ export const paths = [
             {
               "item": "A",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_A_hl74db.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_A_nnuqpk.png",
               "alt": "My Cart First Item",
               "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
             },
             {
               "item": "B",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_B_ebgfix.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_B_ooytfw.png",
               "alt": "My Cart Second Item",
               "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
             }
           ]
         },
+      },
+      {
+        "id": "3",
+        "body": "",
+        "question": {
+          "label": "Which design effectively displays the primary section?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q3_ITEM_A_y460tv.png",
+              "alt": "My Cart First Item",
+              "explanation": "The primary section isn't at all highlighted in this design. Using a single gradient for all of the sections is undesirable and ineffective, especially when some portions ought to be more significant than others."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q3_ITEM_B_zcgwbk.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The main card is effectively labeled as the primary section since it will be the first thing users will look at because of its strong gradient color, giving it much better visibility and importance."
+            }
+          ]
+        }
+      },
+      {
+        "id": "4",
+        "body": "",
+        "question": {
+          "label": "Which design correctly emphasized the primary button/action?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q4_ITEM_A_xsmfzd.png",
+              "alt": "My Cart First Item",
+              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q4_ITEM_B_wqgdlq.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+            }
+          ]
+        }
+      },
+      {
+        "id": "5",
+        "body": "",
+        "question": {
+          "label": "Identify which button(s) are correctly emphasized as the primary action.",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q5_ITEM_A_z2bd79.png",
+              "alt": "My Cart First Item",
+              "explanation": "By understanding the button’s functionalities. The sell button should have the primary color as it operates as the main source of content and acts as the provider of the data. Thus making it the primary action."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q5_ITEM_B_skoqqu.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Categories, Budget, and More Filters’ buttons should have the secondary colors since they only perform minor actions compared to the Sell button."
+            }
+          ]
+        }
+      },
+      {
+        "id": "6",
+        "body": "",
+        "question": {
+          "label": "Which design properly shows the hierarchy of sections?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q6_ITEM_A_unj2cf.png",
+              "alt": "My Cart First Item",
+              "explanation": "Considering that this is an online banking app, the bank card should be the most emphasized section, and we should refrain from including another primary colored sections that might conflict with it."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q6_ITEM_B_axsu1u.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The bank card is properly emphasized as the primary section, while the ad section comes comes as secondary with its light background."
+            }
+          ]
+        }
+      },
+      {
+        "id": "7",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct background color to emphasize the `Learn more` and `Add new board` buttons?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q7_ITEM_A_xgxnvk.png",
+              "alt": "My Cart First Item",
+              "explanation": "“Learn more” button should be a secondary action as it only functions as a minor action compared to “Add new board” button."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q7_ITEM_B_lhnqa6.png",
+              "alt": "My Cart Second Item",
+              "explanation": "“Add new board” button has the correct background color since it’s the primary button. It’s the most important action in this view because it functions as the main provider of the boards data."
+            }
+          ]
+        }
+      },
+      {
+        "id": "8",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct background color to emphasize the `Learn more` and `Add new board` buttons?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q8_ITEM_A_of5sbw.png",
+              "alt": "My Cart First Item",
+              "explanation": "The “Quantity” button is identified as secondary action and so the UI did a good job applying the proper background color."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q8_ITEM_B_jvcp8g.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The “Add to Cart“ and “Quantity“ buttons compete for attention because they’re both emphasized as primary buttons."
+            }
+          ]
+        }
+      },
+      {
+        "id": "9",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct background color to emphasize the `Learn more` and `Add new board` buttons?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q9_ITEM_A_z4nk3d.png",
+              "alt": "My Cart First Item",
+              "explanation": "The hierarchy is clearly distinguished on this page because of the different gradient applied to each section."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531026/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q9_ITEM_B_mpyhx8.png",
+              "alt": "My Cart Second Item",
+              "explanation": "There’s no clear hierarchy distinction since all sections have the same strong gradient, indicating that they’re all labeled as primary sections."
+            }
+          ]
+        }
       }
     ]
   },

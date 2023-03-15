@@ -8,10 +8,10 @@ export default function makeExpressCallback(controller) {
       res.set(httpResult.headers)
         .status(httpResult.statusCode)
         .send({
-          statusCode: httpResult.statusCode,
-          message: httpResult.message,
-          success: httpResult.success,
-          data: httpResult.data
+          statusCode: httpResult?.statusCode,
+          message: httpResult?.message,
+          success: httpResult?.success,
+          data: httpResult?.data
         })
     } catch (e) {
       console.log(e)
