@@ -40,7 +40,7 @@ export const paths = [
         "id": "2",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which design follows the proper hierarchy of colors?",
           "correctAnswer": "B",
           "selectedAnswer": "",
           "difficulty": "Easy",
@@ -52,14 +52,14 @@ export const paths = [
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_A_nnuqpk.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "The buttons follows the proper hierarchy of backgrounds. Primary button for 'Post', secondary button for 'Save as draft', and tertiary button for 'Delete'"
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_B_ooytfw.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "The buttons creates too much noise as they all have the same primary background colors."
             }
           ]
         },
@@ -231,7 +231,119 @@ export const paths = [
             }
           ]
         },
-      }
+      },
+      {
+        "id": "9",
+        "body": "",
+        "question": {
+          "label": "Which UI applies proper contrast for the statuses?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q1_ITEM_A_xrnabq.png",
+              "alt": "My Cart First Item",
+              "explanation": "Applying dark background colors to text can cause hierarchy conflicts among the primary elements that are supposed to be the main focal point of the page."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q1_ITEM_B_m2qoal.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Inverting the colors is the solution to have a proper contrast without conflicting with other elements."
+            }
+          ]
+        },
+      },
+      {
+        "id": "10",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the proper contrast?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q2_ITEM_A_t2wtdb.png",
+              "alt": "My Cart First Item",
+              "explanation": "Applying a dark overlay to the background’s image would increase the contrast between all the text and elements and make them stand out."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q2_ITEM_B_lkmuvf.png",
+              "alt": "My Cart Second Item",
+              "explanation": "It is difficult to read the text since the background is too light and it doesn't effectively emphasize the other features as well."
+            }
+          ]
+        },
+      },
+      {
+        "id": "11",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct alignment of a page?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q3_ITEM_A_idlzsg.png",
+              "alt": "My Cart First Item",
+              "explanation": "If you notice, the first thing that’s not aligned properly is the image and the menu; the second thing is that the texts have a bit of margin to the left."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q3_ITEM_B_pm6c3q.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This UI creates an alignment standard starting from its menu until the details. It’s advantage is mainly improving readability by organizing the elements."
+            }
+          ]
+        },
+      },
+      {
+        "id": "12",
+        "body": "",
+        "question": {
+          "label": "Which design applies the correct alignment for a list?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q4_ITEM_A_vbjbbe.png",
+              "alt": "My Cart First Item",
+              "explanation": "This is more appropriate and easier to look at since the texts and list are all aligned with each other."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969570/Oneguru%20Projects/Spacing%20and%20Alignments/Q4_ITEM_B_xksiqu.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The list is not aligned properly with the heading texts, and the bullets themselves aren't aligned with each other either."
+            }
+          ]
+        },
+      },
       // {
       //   "id": "1",
       //   "body": "",
