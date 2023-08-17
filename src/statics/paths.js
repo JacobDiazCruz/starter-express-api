@@ -10,393 +10,227 @@ export const paths = [
     "contents": [
       {
         "id": "1",
-        "question": "Which design provides the right contrast?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "feedback": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "url": require('../assets/tests/Q1_ITEM_A.png'),
-            "alt": "My Cart First Item",
-            "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "url": require('../assets/tests/Q1_ITEM_B.png'),
-            "alt": "My Cart Second Item",
-            "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which design effectively displays the primary section?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_A_hl74db.png",
+              "alt": "My Cart First Item",
+              "explanation": "“Try our new ecommerce plugin” is the primary (most emphasized) section in this UI, and it is clearly displayed as the primary because the design follows the correct hierarchy of background colors by reducing the contrast of the three cards, thus, making them the secondary sections.<br/>As for the buttons, they also follow the same hierarchy approach by making the “Go to my website button” the secondary action, and “Add new” buttons as tertiary actions.<br/>As much as possible, avoid applying too many primary colors on a single view since the actions will contradict each other and cause conflicts in the eyes of the user. The design avoided this by making the “Go to my website“ button a secondary action rather than a primary one."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_B_ebgfix.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The cards and buttons are grabbing each other’s attention. The main reason is that they are labeled as primary actions, thus indicating that they all have the same level of importance. Most of the time, this creates confusion in users’ eyes the first time they look at the UI."
+            }
+          ]
+        },
       },
       {
         "id": "2",
-        "question": "Which is more user-friendly when designing selections?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "80%",
-            "url": require('../assets/tests/Q2_ITEM_A.png'),
-            "alt": "My Cart First Item",
-            "explanation": "Avoid using radio buttons here since it can make the selection look tedious. Also, make sure to apply margins to clearly separate the options."
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "80%",
-            "url": require('../assets/tests/Q2_ITEM_B.png'),
-            "alt": "My Cart Second Item",
-            "explanation": "Replacing the radio button with a lighter background color makes the selected option look more appealing. And applying margins to each option makes them more clearly separated and easier to select."
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which design provides the right contrast?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_A_nnuqpk.png",
+              "alt": "My Cart First Item",
+              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q2_ITEM_B_ooytfw.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+            }
+          ]
+        },
       },
       {
         "id": "3",
-        "question": "Which design should be used to emphasize certain texts?",
-        "rows": 1,
-        "correctAnswer": "A",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "80%",
-            "explanation": "This is appropriate since it emphasizes the texts by applying different font weights depending on the importance of each label.",
-            "url": require('../assets/tests/Q3_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "80%",
-            "explanation": "Users will be confused when they read the labels since they almost have the same font weights and there's no appropriate text dominance.",
-            "url": require('../assets/tests/Q3_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which design effectively displays the primary section?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 2,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q3_ITEM_A_y460tv.png",
+              "alt": "My Cart First Item",
+              "explanation": "The primary section isn't at all highlighted in this design. Using a single gradient for all of the sections is undesirable and ineffective, especially when some portions ought to be more significant than others."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q3_ITEM_B_zcgwbk.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The main card is effectively labeled as the primary section since it will be the first thing users will look at because of its strong gradient color, giving it much better visibility and importance."
+            }
+          ]
+        }
       },
       {
         "id": "4",
-        "question": "Which group of action buttons has the correct hierarchy of colors?",
-        "rows": 1,
-        "correctAnswer": "A",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "explanation": "<p>This design applies the proper colors that shows a decent hierarchy between buttons. Thus, making it more convenient for the users to look at.</p><b>Primary button</b> - 'Post' is the most prominent button since it contains the form's primary action.<p><b>Secondary button</b> - 'Save as draft' is the second most obvious button next to Post</p><p><b>Tertiary button</b> - 'Delete' is the latent part of the action and should be the least obvious out of the three buttons.</p>",
-            "url": require('../assets/tests/Q4_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "explanation": "Avoid applying strong background colors to all buttons since it can cause a conflicting hierarchy between the form's actions.",
-            "url": require('../assets/tests/Q4_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which design correctly emphasized the primary button/action?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q4_ITEM_A_xsmfzd.png",
+              "alt": "My Cart First Item",
+              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q4_ITEM_B_wqgdlq.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+            }
+          ]
+        }
       },
       {
         "id": "5",
-        "question": "Which design is more sensible when displaying an empty state container?",
-        "label": {
-          "text": "UX: Usability Heuristics Question",
-          "color": "linear-gradient(90deg,#007CF0,#FF0080)"
-        },
-        "rows": 2,
-        "correctAnswer": "B",
-        "difficulty": "Medium",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "explanation": "There's no point in showing actions and filters in an empty state since they won't have any interactions yet unless there's data.",
-            "url": require('../assets/tests/Q5_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "explanation": "<b>Aesthetic and Minimalist design</b><div>This design removes all unused actions and only retains the necessary actions in an empty state.</div>",
-            "url": require('../assets/tests/Q5_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Identify which button(s) are correctly emphasized as the primary action.",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q5_ITEM_A_z2bd79.png",
+              "alt": "My Cart First Item",
+              "explanation": "By understanding the button’s functionalities. The sell button should have the primary color as it operates as the main source of content and acts as the provider of the data. Thus making it the primary action."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531025/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q5_ITEM_B_skoqqu.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Categories, Budget, and More Filters’ buttons should have the secondary colors since they only perform minor actions compared to the Sell button."
+            }
+          ]
+        }
       },
       {
         "id": "6",
-        "question": "When designing a warning alert, which is easier to perceive?",
-        "rows": 2,
-        "correctAnswer": "B",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "70%",
-            "explanation": "This adds little importance to the warning alert since it only applies a light background color for it to be noticed.",
-            "url": require('../assets/tests/Q6_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "70%",
-            "explanation": "This design is much easier to perceive since the use of a left-colored border suggests that the information is significant and needs to be read. Additionally, it helps you stand out to readers.",
-            "url": require('../assets/tests/Q6_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which UX should we follow when we have to display a cookie consent popup?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_A_skltfj.png",
+              "alt": "My Cart First Item",
+              "explanation": "The cookie consent popup is displayed without preventing the users from using the site."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This is the wrong strategy to follow because a cookie consent popup shouldn't prevent users from utilizing the site. It's merely an optional popup that enables the system to track the activity of the advertisements."
+            }
+          ]
+        },
       },
       {
         "id": "7",
-        "question": "Which design applies the correct alignment for a list?",
-        "rows": 2,
-        "correctAnswer": "A",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "explanation": "This is more appropriate and easier to look at since the texts and list are all aligned with each other.",
-            "url": require('../assets/tests/Q7_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "explanation": "The list is not aligned properly with the heading texts, and the bullets themselves aren't aligned with each other either.",
-            "url": require('../assets/tests/Q7_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
+        "body": "",
+        "question": {
+          "label": "Which UX should we follow when we have to display a welcome popup?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_A_pn3lry.png",
+              "alt": "My Cart First Item",
+              "explanation": "This is not the right approach to follow since the users will be confused on what they have to do once they visited this page. They may wonder whether they should start by creating a flow now or whether they should ignore or respond to the welcome popup first.<br/>In this case, we want the users to mainly focus on the welcome popup and guide them to their initial site interaction."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_B_mnxad5.png",
+              "alt": "My Cart Second Item",
+              "explanation": "By blocking the site view, it creates a clear indication that the users should focus on the welcome popup and decide what initial action they have to perform on the site."
+            }
+          ]
+        },
       },
       {
         "id": "8",
-        "label": {
-          "text": "UX: Usability Heuristics Question",
-          "color": "linear-gradient(90deg,#007CF0,#FF0080)"
+        "body": "",
+        "question": {
+          "label": "Which UX should we follow when we have to display a success message popup?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_A_wca9z7.png",
+              "alt": "My Cart First Item",
+              "explanation": "This approach allows the users to see the success message popup while still having the freedom to utilize the site."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_B_ttpoh2.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This approach is redundant because a success message popup's only function is to inform users that the most recent action they took was successful and lacks any real urgency. Hence, it shouldn't restrict how freely they utilize the site."
+            }
+          ]
         },
-        "question": "Which is the most optimal process to show password validation?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "difficulty": "Hard",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "80%",
-            "explanation": "<div>We must not create this kind of user experience since the validation is displayed too late and the user has already caused an error.</div>",
-            "url": require('../assets/tests/Q8_ITEM_B.gif'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "80%",
-            "explanation": "<b>Error Prevention</b><div>Users are always prone to errors. To prevent them from causing that, we must guide them by giving suggestions, or in this case, showing a 'validation helper' before submitting.</div>",
-            "url": require('../assets/tests/Q8_ITEM_A.gif'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "9",
-        "question": "Which design effectively communicates the quantity of a product to the users?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "difficulty": "Medium",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "95%",
-            "explanation": "Avoid static labels since they are vague and not really that comprehensible. Especially when you want to display an important part of a content like the quantity of products available in stock.",
-            "url": require('../assets/tests/Q8_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "95%",
-            "explanation": "This clearly emphasizes the quantity of the products that are available in stock, and it communicates well to the readers.",
-            "url": require('../assets/tests/Q8_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "10",
-        "question": "Which design is more reasonable when creating a simple table?",
-        "rows": 2,
-        "correctAnswer": "A",
-        "selectedAnswer": "",
-        "difficulty": "Medium",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "explanation": "Reducing borders and changing them to a lighter color is the appropriate approach since it can loosen up the columns and make them more aesthetically pleasing.",
-            "url": require('../assets/tests/Q9_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "explanation": "Avoid applying excessive borders as it can make your table look too occupied. This might only be necessary when you're dealing with spreadsheets that requires your columns to be scrollable because of long texts or values.",
-            "url": require('../assets/tests/Q9_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "11",
-        "question": "Which design applies the correct spacing for a form container?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "selectedAnswer": "",
-        "difficulty": "Easy",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "height": "400px",
-            "explanation": "This design looks tight, and there's no breathing room for the content inside the form. Also, the fields don't have enough space to handle error validations if there are any.",
-            "url": require('../assets/tests/Q10_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "height": "400px",
-            "explanation": "Applying padding on the form itself and on the fields can loosen up your content and make it more readable.",
-            "url": require('../assets/tests/Q10_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "12",
-        "question": "When designing form labels, which is easier for users to perceive?",
-        "rows": 1,
-        "correctAnswer": "B",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": false,
-            "width": "90%",
-            "explanation": "At first glance, some fields are a bit hard to navigate since the labels and fields are distant from each other.",
-            "url": require('../assets/tests/Q11_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": true,
-            "width": "90%",
-            "explanation": "Aligning the labels to the right is the better approach and can make the fields easier to look at.",
-            "url": require('../assets/tests/Q11_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "13",
-        "question": "Which design is more efficient for the home page of a hotel booking app?",
-        "rows": 1,
-        "correctAnswer": "A",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "70%",
-            "explanation": "This is the efficient approach, as it emphasizes the <b>Top Picks</b> cards by applying a light background color and de-emphasizes the <b>Near You</b> cards by removing the shadows.",
-            "url": require('../assets/tests/Q12_ITEM_A.png'),
-            "alt": "My Cart First Item"
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "70%",
-            "explanation": "Box shadows should be used sparingly and only to highlight specific cards. For instance, it's better to apply the box shadow upon hovering the cards.",
-            "url": require('../assets/tests/Q12_ITEM_B.png'),
-            "alt": "My Cart Second Item"
-          }
-        ]
-      },
-      {
-        "id": "14",
-        "question": "Which design displays the correct background of a primary button?",
-        "rows": 1,
-        "correctAnswer": "A",
-        "theme": "dark",
-        "difficulty": "Easy",
-        "selectedAnswer": "",
-        "answer": "",
-        "choices": [
-          {
-            "item": "A",
-            "isCorrectAnswer": true,
-            "width": "70%",
-            "url": require('../assets/tests/Q13_ITEM_A.png'),
-            "alt": "My Cart First Item",
-            "explanation": "This section has a more appropriate button since it emphasizes the primary action of the whole page by applying a prominent background color."
-          },
-          {
-            "item": "B",
-            "isCorrectAnswer": false,
-            "width": "70%",
-            "url": require('../assets/tests/Q13_ITEM_B.png'),
-            "alt": "My Cart Second Item",
-            "explanation": "Outlined button is more appropriate for secondary and tertiary actions, but since we have a primary action, the styling is not suitable."
-          }
-        ]
       }
       // {
       //   "id": "1",
