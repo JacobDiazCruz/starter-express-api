@@ -10,144 +10,534 @@ export const paths = [
     "contents": [
       {
         "id": "1",
-        "body": "",
-        "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
-          "selectedAnswer": "",
-          "difficulty": "Easy",
-          "feedback": "",
-          "rows": 1,
-          "choices": [
-            {
-              "item": "A",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
-              "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-            },
-            {
-              "item": "B",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
-              "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-            }
-          ]
-        },
+        "question": "Which design provides the right contrast?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "feedback": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "url": require('../assets/tests/Q1_ITEM_A.png'),
+            "alt": "My Cart First Item",
+            "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "url": require('../assets/tests/Q1_ITEM_B.png'),
+            "alt": "My Cart Second Item",
+            "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+          }
+        ]
       },
       {
         "id": "2",
-        "body": "",
-        "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
-          "selectedAnswer": "",
-          "difficulty": "Easy",
-          "feedback": "",
-          "rows": 1,
-          "choices": [
-            {
-              "item": "A",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_A_pn3lry.png",
-              "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-            },
-            {
-              "item": "B",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_B_mnxad5.png",
-              "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-            }
-          ]
-        },
+        "question": "Which is more user-friendly when designing selections?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "80%",
+            "url": require('../assets/tests/Q2_ITEM_A.png'),
+            "alt": "My Cart First Item",
+            "explanation": "Avoid using radio buttons here since it can make the selection look tedious. Also, make sure to apply margins to clearly separate the options."
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "80%",
+            "url": require('../assets/tests/Q2_ITEM_B.png'),
+            "alt": "My Cart Second Item",
+            "explanation": "Replacing the radio button with a lighter background color makes the selected option look more appealing. And applying margins to each option makes them more clearly separated and easier to select."
+          }
+        ]
       },
       {
         "id": "3",
-        "body": "",
-        "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
-          "selectedAnswer": "",
-          "difficulty": "Easy",
-          "feedback": "",
-          "rows": 1,
-          "choices": [
-            {
-              "item": "A",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_A_wca9z7.png",
-              "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-            },
-            {
-              "item": "B",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_B_ttpoh2.png",
-              "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-            }
-          ]
-        },
+        "question": "Which design should be used to emphasize certain texts?",
+        "rows": 1,
+        "correctAnswer": "A",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "80%",
+            "explanation": "This is appropriate since it emphasizes the texts by applying different font weights depending on the importance of each label.",
+            "url": require('../assets/tests/Q3_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "80%",
+            "explanation": "Users will be confused when they read the labels since they almost have the same font weights and there's no appropriate text dominance.",
+            "url": require('../assets/tests/Q3_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
       },
       {
         "id": "4",
-        "body": "",
-        "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
-          "selectedAnswer": "",
-          "difficulty": "Easy",
-          "feedback": "",
-          "rows": 1,
-          "choices": [
-            {
-              "item": "A",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_A_nfweef.png",
-              "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-            },
-            {
-              "item": "B",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_B_mqd7em.png",
-              "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-            }
-          ]
-        },
+        "question": "Which group of action buttons has the correct hierarchy of colors?",
+        "rows": 1,
+        "correctAnswer": "A",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "explanation": "<p>This design applies the proper colors that shows a decent hierarchy between buttons. Thus, making it more convenient for the users to look at.</p><b>Primary button</b> - 'Post' is the most prominent button since it contains the form's primary action.<p><b>Secondary button</b> - 'Save as draft' is the second most obvious button next to Post</p><p><b>Tertiary button</b> - 'Delete' is the latent part of the action and should be the least obvious out of the three buttons.</p>",
+            "url": require('../assets/tests/Q4_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "explanation": "Avoid applying strong background colors to all buttons since it can cause a conflicting hierarchy between the form's actions.",
+            "url": require('../assets/tests/Q4_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
       },
       {
         "id": "5",
-        "body": "",
-        "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
-          "selectedAnswer": "",
-          "difficulty": "Easy",
-          "feedback": "",
-          "rows": 1,
-          "choices": [
-            {
-              "item": "A",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_A_todwvf.png",
-              "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
-            },
-            {
-              "item": "B",
-              "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_B_h3w0lq.png",
-              "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
-            }
-          ]
+        "question": "Which design is more sensible when displaying an empty state container?",
+        "label": {
+          "text": "UX: Usability Heuristics Question",
+          "color": "linear-gradient(90deg,#007CF0,#FF0080)"
         },
+        "rows": 2,
+        "correctAnswer": "B",
+        "difficulty": "Medium",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "explanation": "There's no point in showing actions and filters in an empty state since they won't have any interactions yet unless there's data.",
+            "url": require('../assets/tests/Q5_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "explanation": "<b>Aesthetic and Minimalist design</b><div>This design removes all unused actions and only retains the necessary actions in an empty state.</div>",
+            "url": require('../assets/tests/Q5_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "question": "When designing a warning alert, which is easier to perceive?",
+        "rows": 2,
+        "correctAnswer": "B",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "70%",
+            "explanation": "This adds little importance to the warning alert since it only applies a light background color for it to be noticed.",
+            "url": require('../assets/tests/Q6_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "70%",
+            "explanation": "This design is much easier to perceive since the use of a left-colored border suggests that the information is significant and needs to be read. Additionally, it helps you stand out to readers.",
+            "url": require('../assets/tests/Q6_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Which design applies the correct alignment for a list?",
+        "rows": 2,
+        "correctAnswer": "A",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "explanation": "This is more appropriate and easier to look at since the texts and list are all aligned with each other.",
+            "url": require('../assets/tests/Q7_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "explanation": "The list is not aligned properly with the heading texts, and the bullets themselves aren't aligned with each other either.",
+            "url": require('../assets/tests/Q7_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": {
+          "text": "UX: Usability Heuristics Question",
+          "color": "linear-gradient(90deg,#007CF0,#FF0080)"
+        },
+        "question": "Which is the most optimal process to show password validation?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "difficulty": "Hard",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "80%",
+            "explanation": "<div>We must not create this kind of user experience since the validation is displayed too late and the user has already caused an error.</div>",
+            "url": require('../assets/tests/Q8_ITEM_B.gif'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "80%",
+            "explanation": "<b>Error Prevention</b><div>Users are always prone to errors. To prevent them from causing that, we must guide them by giving suggestions, or in this case, showing a 'validation helper' before submitting.</div>",
+            "url": require('../assets/tests/Q8_ITEM_A.gif'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "question": "Which design effectively communicates the quantity of a product to the users?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "difficulty": "Medium",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "95%",
+            "explanation": "Avoid static labels since they are vague and not really that comprehensible. Especially when you want to display an important part of a content like the quantity of products available in stock.",
+            "url": require('../assets/tests/Q8_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "95%",
+            "explanation": "This clearly emphasizes the quantity of the products that are available in stock, and it communicates well to the readers.",
+            "url": require('../assets/tests/Q8_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "question": "Which design is more reasonable when creating a simple table?",
+        "rows": 2,
+        "correctAnswer": "A",
+        "selectedAnswer": "",
+        "difficulty": "Medium",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "explanation": "Reducing borders and changing them to a lighter color is the appropriate approach since it can loosen up the columns and make them more aesthetically pleasing.",
+            "url": require('../assets/tests/Q9_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "explanation": "Avoid applying excessive borders as it can make your table look too occupied. This might only be necessary when you're dealing with spreadsheets that requires your columns to be scrollable because of long texts or values.",
+            "url": require('../assets/tests/Q9_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "question": "Which design applies the correct spacing for a form container?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "selectedAnswer": "",
+        "difficulty": "Easy",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "height": "400px",
+            "explanation": "This design looks tight, and there's no breathing room for the content inside the form. Also, the fields don't have enough space to handle error validations if there are any.",
+            "url": require('../assets/tests/Q10_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "height": "400px",
+            "explanation": "Applying padding on the form itself and on the fields can loosen up your content and make it more readable.",
+            "url": require('../assets/tests/Q10_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "question": "When designing form labels, which is easier for users to perceive?",
+        "rows": 1,
+        "correctAnswer": "B",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": false,
+            "width": "90%",
+            "explanation": "At first glance, some fields are a bit hard to navigate since the labels and fields are distant from each other.",
+            "url": require('../assets/tests/Q11_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": true,
+            "width": "90%",
+            "explanation": "Aligning the labels to the right is the better approach and can make the fields easier to look at.",
+            "url": require('../assets/tests/Q11_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "question": "Which design is more efficient for the home page of a hotel booking app?",
+        "rows": 1,
+        "correctAnswer": "A",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "70%",
+            "explanation": "This is the efficient approach, as it emphasizes the <b>Top Picks</b> cards by applying a light background color and de-emphasizes the <b>Near You</b> cards by removing the shadows.",
+            "url": require('../assets/tests/Q12_ITEM_A.png'),
+            "alt": "My Cart First Item"
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "70%",
+            "explanation": "Box shadows should be used sparingly and only to highlight specific cards. For instance, it's better to apply the box shadow upon hovering the cards.",
+            "url": require('../assets/tests/Q12_ITEM_B.png'),
+            "alt": "My Cart Second Item"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "question": "Which design displays the correct background of a primary button?",
+        "rows": 1,
+        "correctAnswer": "A",
+        "theme": "dark",
+        "difficulty": "Easy",
+        "selectedAnswer": "",
+        "answer": "",
+        "choices": [
+          {
+            "item": "A",
+            "isCorrectAnswer": true,
+            "width": "70%",
+            "url": require('../assets/tests/Q13_ITEM_A.png'),
+            "alt": "My Cart First Item",
+            "explanation": "This section has a more appropriate button since it emphasizes the primary action of the whole page by applying a prominent background color."
+          },
+          {
+            "item": "B",
+            "isCorrectAnswer": false,
+            "width": "70%",
+            "url": require('../assets/tests/Q13_ITEM_B.png'),
+            "alt": "My Cart Second Item",
+            "explanation": "Outlined button is more appropriate for secondary and tertiary actions, but since we have a primary action, the styling is not suitable."
+          }
+        ]
       }
+      // {
+      //   "id": "1",
+      //   "body": "",
+      //   "question": {
+      //     "label": "Which design provides the right contrast?",
+      //     "correctAnswer": "B",
+      //     "selectedAnswer": "",
+      //     "difficulty": "Easy",
+      //     "feedback": "",
+      //     "rows": 1,
+      //     "choices": [
+      //       {
+      //         "item": "A",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
+      //         "alt": "My Cart First Item",
+      //         "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+      //       },
+      //       {
+      //         "item": "B",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
+      //         "alt": "My Cart Second Item",
+      //         "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+      //       }
+      //     ]
+      //   },
+      // },
+      // {
+      //   "id": "2",
+      //   "body": "",
+      //   "question": {
+      //     "label": "Which design provides the right contrast?",
+      //     "correctAnswer": "B",
+      //     "selectedAnswer": "",
+      //     "difficulty": "Easy",
+      //     "feedback": "",
+      //     "rows": 1,
+      //     "choices": [
+      //       {
+      //         "item": "A",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_A_pn3lry.png",
+      //         "alt": "My Cart First Item",
+      //         "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+      //       },
+      //       {
+      //         "item": "B",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_B_mnxad5.png",
+      //         "alt": "My Cart Second Item",
+      //         "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+      //       }
+      //     ]
+      //   },
+      // },
+      // {
+      //   "id": "3",
+      //   "body": "",
+      //   "question": {
+      //     "label": "Which design provides the right contrast?",
+      //     "correctAnswer": "B",
+      //     "selectedAnswer": "",
+      //     "difficulty": "Easy",
+      //     "feedback": "",
+      //     "rows": 1,
+      //     "choices": [
+      //       {
+      //         "item": "A",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_A_wca9z7.png",
+      //         "alt": "My Cart First Item",
+      //         "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+      //       },
+      //       {
+      //         "item": "B",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_B_ttpoh2.png",
+      //         "alt": "My Cart Second Item",
+      //         "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+      //       }
+      //     ]
+      //   },
+      // },
+      // {
+      //   "id": "4",
+      //   "body": "",
+      //   "question": {
+      //     "label": "Which design provides the right contrast?",
+      //     "correctAnswer": "B",
+      //     "selectedAnswer": "",
+      //     "difficulty": "Easy",
+      //     "feedback": "",
+      //     "rows": 1,
+      //     "choices": [
+      //       {
+      //         "item": "A",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_A_nfweef.png",
+      //         "alt": "My Cart First Item",
+      //         "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+      //       },
+      //       {
+      //         "item": "B",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_B_mqd7em.png",
+      //         "alt": "My Cart Second Item",
+      //         "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+      //       }
+      //     ]
+      //   },
+      // },
+      // {
+      //   "id": "5",
+      //   "body": "",
+      //   "question": {
+      //     "label": "Which design provides the right contrast?",
+      //     "correctAnswer": "B",
+      //     "selectedAnswer": "",
+      //     "difficulty": "Easy",
+      //     "feedback": "",
+      //     "rows": 1,
+      //     "choices": [
+      //       {
+      //         "item": "A",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_A_todwvf.png",
+      //         "alt": "My Cart First Item",
+      //         "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+      //       },
+      //       {
+      //         "item": "B",
+      //         "width": "90%",
+      //         "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_B_h3w0lq.png",
+      //         "alt": "My Cart Second Item",
+      //         "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+      //       }
+      //     ]
+      //   },
+      // }
     ]
   },
   {
@@ -415,8 +805,8 @@ export const paths = [
   },
   {
     "id": "3",
-    "name": "Modals & Dialogs",
-    "label": "modals_and_dialogs",
+    "name": "Popups, Modals, & Dialogs UX",
+    "label": "popups_modals_and_dialogs",
     "description": "You'll learn how to implement the right modals.",
     "tags": [],
     "totalResult": "",
@@ -426,8 +816,8 @@ export const paths = [
         "id": "1",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
+          "label": "Which UX should we follow when we have to display a cookie consent popup?",
+          "correctAnswer": "A",
           "selectedAnswer": "",
           "difficulty": "Easy",
           "feedback": "",
@@ -436,16 +826,16 @@ export const paths = [
             {
               "item": "A",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_A_skltfj.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "The cookie consent popup is displayed without preventing the users from using the site."
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q1_ITEM_B_kxanbm.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "This is the wrong strategy to follow because a cookie consent popup shouldn't prevent users from utilizing the site. It's merely an optional popup that enables the system to track the activity of the advertisements."
             }
           ]
         },
@@ -454,10 +844,10 @@ export const paths = [
         "id": "2",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which UX should we follow when we have to display a welcome popup?",
           "correctAnswer": "B",
           "selectedAnswer": "",
-          "difficulty": "Easy",
+          "difficulty": "Medium",
           "feedback": "",
           "rows": 1,
           "choices": [
@@ -466,14 +856,14 @@ export const paths = [
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_A_pn3lry.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "This is not the right approach to follow since the users will be confused on what they have to do once they visited this page. They may wonder whether they should start by creating a flow now or whether they should ignore or respond to the welcome popup first.<br/>In this case, we want the users to mainly focus on the welcome popup and guide them to their initial site interaction."
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q2_ITEM_B_mnxad5.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "By blocking the site view, it creates a clear indication that the users should focus on the welcome popup and decide what initial action they have to perform on the site."
             }
           ]
         },
@@ -482,10 +872,10 @@ export const paths = [
         "id": "3",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
-          "correctAnswer": "B",
+          "label": "Which UX should we follow when we have to display a success message popup?",
+          "correctAnswer": "A",
           "selectedAnswer": "",
-          "difficulty": "Easy",
+          "difficulty": "Medium",
           "feedback": "",
           "rows": 1,
           "choices": [
@@ -494,14 +884,14 @@ export const paths = [
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_A_wca9z7.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "This approach allows the users to see the success message popup while still having the freedom to utilize the site."
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528306/Oneguru%20Projects/Modals%20and%20dialogs/Q3_ITEM_B_ttpoh2.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "This approach is redundant because a success message popup's only function is to inform users that the most recent action they took was successful and lacks any real urgency. Hence, it shouldn't restrict how freely they utilize the site."
             }
           ]
         },
@@ -510,10 +900,10 @@ export const paths = [
         "id": "4",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which UX we should follow when we need to show a system update popup on an online banking app?",
           "correctAnswer": "B",
           "selectedAnswer": "",
-          "difficulty": "Easy",
+          "difficulty": "Medium",
           "feedback": "",
           "rows": 1,
           "choices": [
@@ -522,14 +912,14 @@ export const paths = [
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_A_nfweef.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "This UX gives slight importance to the system update; it also implies that the users still have the option to not update the app and freely use its outdated version without being warned about the potential risks.<br/><b>Side note:</b> This UX can be used by apps that don't deal with cash or private transactions because the risks aren't that serious."
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q4_ITEM_B_mqd7em.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "An outdated version of an online banking app may be vulnerable to fraud, hacking, transaction problems, or other major threats because of the sensitive data it contains. Thus, forcing users to update the system before using it again is a must."
             }
           ]
         },
@@ -538,10 +928,10 @@ export const paths = [
         "id": "5",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which UX should we follow when we need to show a delete dialog?",
           "correctAnswer": "B",
           "selectedAnswer": "",
-          "difficulty": "Easy",
+          "difficulty": "Medium",
           "feedback": "",
           "rows": 1,
           "choices": [
@@ -550,18 +940,102 @@ export const paths = [
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_A_todwvf.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "The delete dialog takes precedence by blocking everything else outside the view, allowing the user to concentrate just on the question at hand."
             },
             {
               "item": "B",
               "width": "90%",
               "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q5_ITEM_B_h3w0lq.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "The delete dialog should take precedence and be the only thing that is focused on the view, blocking anything else."
             }
           ]
         },
-      }
+      },
+      {
+        "id": "6",
+        "body": "",
+        "question": {
+          "label": "Which UX we should follow when we have to display a dialog?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q6_ITEM_A_jemyur.png",
+              "alt": "My Cart First Item",
+              "explanation": "Theoretically, it is obvious that the user should always answer the question in the dialog box. Unfortunately, not everyone is certain what answer to provide. A more careful option for them if they wish to answer “No” is to just click the Close symbol at the top to prevent responding to the dialog."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q6_ITEM_B_voacf5.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Theoretically, it is obvious that the user should always answer the question in the dialog box. Unfortunately, not everyone is certain what answer to provide. A more careful option for them if they wish to answer “No” is to just click the Close symbol at the top to prevent responding to the dialog."
+            }
+          ]
+        },
+      },
+      {
+        "id": "7",
+        "body": "",
+        "question": {
+          "label": "Which UI properly displays an error message?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528307/Oneguru%20Projects/Modals%20and%20dialogs/Q7_ITEM_A_rfhpbd.png",
+              "alt": "My Cart First Item",
+              "explanation": "Users shouldn't be expected to be aware of system error 403. This error notice therefore doesn't explain what occurred during their most recent delete activity."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528308/Oneguru%20Projects/Modals%20and%20dialogs/Q7_ITEM_B_tlcnxy.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This provides context and makes it clear to users that their most recent delete operation was unsuccessful. Likewise, the sentence 'You may try again later' will provide users a sense of what they should do next."
+            }
+          ]
+        },
+      },
+      {
+        "id": "8",
+        "body": "",
+        "question": {
+          "label": "Which UI effectively positions the modal?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528308/Oneguru%20Projects/Modals%20and%20dialogs/Q8_ITEM_A_o2j4ms.png",
+              "alt": "My Cart First Item",
+              "explanation": "The fact that the modal is placed right next to the action helps users understand whatever action they have clicked to open it."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676528308/Oneguru%20Projects/Modals%20and%20dialogs/Q8_ITEM_B_frge5g.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The placement of the modal is not helpful for some users who aren’t familiar with the system since they won’t remember what element or action they clicked to open the modal."
+            }
+          ]
+        },
+      },
     ]
   },
   {
@@ -593,7 +1067,63 @@ export const paths = [
         "id": "1",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which UI applies proper contrast for the statuses?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q1_ITEM_A_xrnabq.png",
+              "alt": "My Cart First Item",
+              "explanation": "Applying dark background colors to text can cause hierarchy conflicts among the primary elements that are supposed to be the main focal point of the page."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q1_ITEM_B_m2qoal.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Inverting the colors is the solution to have a proper contrast without conflicting with other elements."
+            }
+          ]
+        },
+      },
+      {
+        "id": "2",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the proper contrast?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q2_ITEM_A_t2wtdb.png",
+              "alt": "My Cart First Item",
+              "explanation": "Applying a dark overlay to the background’s image would increase the contrast between all the text and elements and make them stand out."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q2_ITEM_B_lkmuvf.png",
+              "alt": "My Cart Second Item",
+              "explanation": "It is difficult to read the text since the background is too light and it doesn't effectively emphasize the other features as well."
+            }
+          ]
+        },
+      },
+      {
+        "id": "3",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct font weight for the navigation items?",
           "correctAnswer": "B",
           "selectedAnswer": "",
           "difficulty": "Easy",
@@ -603,16 +1133,100 @@ export const paths = [
             {
               "item": "A",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_A_hl74db.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q3_ITEM_A_xtvfwg.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "Having a single font weight for all of the navigation items will have less effectiveness at giving importance to the active item."
             },
             {
               "item": "B",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_B_ebgfix.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q3_ITEM_B_tk4tmf.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "A better approach is to only apply a heavy font weight to the active item together with a different font color, and apply a lighter weight to the inactive ones."
+            }
+          ]
+        },
+      },
+      {
+        "id": "4",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct font weight for the navigation items?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q4_ITEM_A_jkhczk.png",
+              "alt": "My Cart First Item",
+              "explanation": "Having a single font weight for all of the navigation items will have less effectiveness at giving importance to the active item."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q3_ITEM_B_tk4tmf.png",
+              "alt": "My Cart Second Item",
+              "explanation": "A better approach is to only apply a heavy font weight to the active item together with a different font color, and apply a lighter weight to the inactive ones."
+            }
+          ]
+        },
+      },
+      {
+        "id": "5",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the proper contrast for the list of currencies?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q5_ITEM_A_emagrq.png",
+              "alt": "My Cart First Item",
+              "explanation": "Even though the background colors look good for the currencies, it defeats the contrast of the graphs, making it ineffective and hard to notice."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960632/Oneguru%20Projects/Contrasts/Q5_ITEM_B_hwsz4s.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The backdrop colors of the currencies offer a suitable contrast with the main background. Also, it enhances the colors of the graphs."
+            }
+          ]
+        },
+      },
+      {
+        "id": "6",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the proper contrast for the list of currencies?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960633/Oneguru%20Projects/Contrasts/Q6_ITEM_A_rnmi3j.png",
+              "alt": "My Cart First Item",
+              "explanation": "Everything follows the correct color scheme which creates consistency for this section. "
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678960633/Oneguru%20Projects/Contrasts/Q6_ITEM_B_bhvqty.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The highlighted section doesn’t follow the correct standard color and theme of the whole section."
             }
           ]
         },
@@ -632,7 +1246,7 @@ export const paths = [
         "id": "1",
         "body": "",
         "question": {
-          "label": "Which design provides the right contrast?",
+          "label": "Which design applies the correct spacing for a form container?",
           "correctAnswer": "B",
           "selectedAnswer": "",
           "difficulty": "Easy",
@@ -642,16 +1256,156 @@ export const paths = [
             {
               "item": "A",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_A_hl74db.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969568/Oneguru%20Projects/Spacing%20and%20Alignments/Q1_ITEM_A_ntaxxg.png",
               "alt": "My Cart First Item",
-              "explanation": "At first glance, it's going to be difficult for users to understand the separation of the <b>Cart items section</b> and the <b>Checkout section</b> because both sections share the same white color, and the only design that separates them is a light colored border."
+              "explanation": "This design looks tight, and there's no breathing room for the content inside the form. Also, the fields don't have enough space to handle error validations if there are any."
             },
             {
               "item": "B",
               "width": "90%",
-              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1676531024/Oneguru%20Projects/Identifying%20the%20primary%20actions%20and%20sections/Q1_ITEM_B_ebgfix.png",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969568/Oneguru%20Projects/Spacing%20and%20Alignments/Q1_ITEM_B_byac3w.png",
               "alt": "My Cart Second Item",
-              "explanation": "This has a proper contrast since it clearly separates the <b>Cart items section</b> from the <b>Checkout section</b> by applying a different background color."
+              "explanation": "Applying padding on the form itself and on the fields can loosen up your content and make it more readable."
+            }
+          ]
+        },
+      },
+      {
+        "id": "2",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct alignment of the elements?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q2_ITEM_A_lkr7ll.png",
+              "alt": "My Cart First Item",
+              "explanation": "If the text is aligned proportionally to the left, our eyes will have to exert less effort to read the material because it will follow a certain pattern."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q2_ITEM_B_kyqhpt.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This forces our eyes to exert more effort since the starting place of the line changes frequently, especially in the paragraph. This is only advisable to use on texts that have 2–3 lines."
+            }
+          ]
+        },
+      },
+      {
+        "id": "3",
+        "body": "",
+        "question": {
+          "label": "Which UI applies the correct alignment of a page?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q3_ITEM_A_idlzsg.png",
+              "alt": "My Cart First Item",
+              "explanation": "If you notice, the first thing that’s not aligned properly is the image and the menu; the second thing is that the texts have a bit of margin to the left."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q3_ITEM_B_pm6c3q.png",
+              "alt": "My Cart Second Item",
+              "explanation": "This UI creates an alignment standard starting from its menu until the details. It’s advantage is mainly improving readability by organizing the elements."
+            }
+          ]
+        },
+      },
+      {
+        "id": "4",
+        "body": "",
+        "question": {
+          "label": "Which design applies the correct alignment for a list?",
+          "correctAnswer": "A",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q4_ITEM_A_vbjbbe.png",
+              "alt": "My Cart First Item",
+              "explanation": "This is more appropriate and easier to look at since the texts and list are all aligned with each other."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969570/Oneguru%20Projects/Spacing%20and%20Alignments/Q4_ITEM_B_xksiqu.png",
+              "alt": "My Cart Second Item",
+              "explanation": "The list is not aligned properly with the heading texts, and the bullets themselves aren't aligned with each other either."
+            }
+          ]
+        },
+      },
+      {
+        "id": "5",
+        "body": "",
+        "question": {
+          "label": "Which design applies the correct alignment for a list?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Medium",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q5_ITEM_A_zuq0u8.png",
+              "alt": "My Cart First Item",
+              "explanation": "At first glance, some fields are a bit hard to navigate since the labels and fields are distant from each other."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q5_ITEM_B_wcbl0s.png",
+              "alt": "My Cart Second Item",
+              "explanation": "Aligning the labels to the right is the better approach and can make the fields easier to look at."
+            }
+          ]
+        },
+      },
+      {
+        "id": "6",
+        "body": "",
+        "question": {
+          "label": "Which UI applies a proper padding?",
+          "correctAnswer": "B",
+          "selectedAnswer": "",
+          "difficulty": "Easy",
+          "feedback": "",
+          "rows": 1,
+          "choices": [
+            {
+              "item": "A",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969569/Oneguru%20Projects/Spacing%20and%20Alignments/Q6_ITEM_A_ppqs8v.png",
+              "alt": "My Cart First Item",
+              "explanation": "This forces our eyes to exert more effort since the starting place of the line changes frequently, especially in the paragraph. This is only advisable to use on texts that contains 2–3 lines."
+            },
+            {
+              "item": "B",
+              "width": "90%",
+              "url": "https://res.cloudinary.com/dqrtlfjc0/image/upload/v1678969570/Oneguru%20Projects/Spacing%20and%20Alignments/Q6_ITEM_B_qv5der.png",
+              "alt": "My Cart Second Item",
+              "explanation": "There’s no proper established padding on the bottom section. It adds noise to the whole section and might be harder to navigate with eyes if paired with other elements. "
             }
           ]
         },
